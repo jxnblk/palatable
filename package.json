@@ -1,0 +1,24 @@
+{
+  "name": "palatable",
+  "version": "1.0.0",
+  "description": "Automatically generate CSS color, background-color, and border-color utilities based on an array of color values",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "css",
+    "color",
+    "color-palette"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.5.0"
+  },
+  "devDependencies": {
+    "colorbrewer": "0.0.2",
+    "cssnext": "^1.1.0",
+    "mocha": "^2.2.1"
+  }
+}
