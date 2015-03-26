@@ -1,6 +1,6 @@
 {
   "name": "palatable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically generate CSS color, background-color, and border-color utilities based on an array of color values",
   "main": "index.js",
   "scripts": {
