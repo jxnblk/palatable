@@ -1,6 +1,5 @@
 
 var _ = require('lodash');
-var keyword = require('closest-color-keyword');
 var mapColors = require('./lib/map-colors');
 
 module.exports = function(options) {
@@ -11,9 +10,10 @@ module.exports = function(options) {
     colors: [],
     customProperties: false,
     prefix: false,
+    basic: false,
   });
 
-  var colors = mapColors(options.colors);
+  var colors = mapColors(options.colors, options);
   var prefix = options.prefix || '';
   var colorCss;
   var backgroundColorCss;
